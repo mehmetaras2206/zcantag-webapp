@@ -1,0 +1,91 @@
+name: webapp
+description: "ZCANTAG - Web App mit Admin-Panel"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  url_launcher: ^6.2.5
+
+  # Networking
+  http: ^1.2.2
+
+  # Web Storage (statt flutter_secure_storage)
+  shared_preferences: ^2.2.0
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Routing (Web-optimiert)
+  go_router: ^12.0.0
+
+  # Code Generation & Serialization
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+  # Utilities
+  equatable: ^2.0.5
+
+  # QR Code (fuer Visitenkarten-Sharing)
+  qr_flutter: ^4.1.0
+
+  # Charts (fuer Analytics Dashboard)
+  syncfusion_flutter_charts: ^23.0.0
+
+  # Data Tables (fuer Admin Panel)
+  data_table_2: ^2.5.0
+
+  # File Export (CSV, PDF)
+  file_saver: ^0.2.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  # Code Generation
+  build_runner: ^2.4.8
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Outfit-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Outfit-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Outfit-Bold.ttf
+          weight: 700
+
+    - family: Afacad
+      fonts:
+        - asset: assets/fonts/Afacad-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Afacad-Bold.ttf
+          weight: 700
+
+    - family: ABeeZee
+      fonts:
+        - asset: assets/fonts/ABeeZee-Regular.ttf
+          weight: 400
