@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.zcantag.app",
+      "sha256_cert_fingerprints": [
+        "5D:52:10:43:A4:59:04:D2:FD:6F:CF:CB:DB:45:98:34:78:8B:98:CF:7E:C7:49:B3:D1:F7:DF:EB:61:6E:0D:4B"
+      ]
+    }
+  }
+]

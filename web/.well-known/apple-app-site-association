@@ -1,0 +1,16 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["TEAMID.io.zcantag.app"],
+        "components": [
+          { "/": "/u/*" },
+          { "/": "/card/*" },
+          { "/": "/c/*" },
+          { "/": "/profile/*" }
+        ]
+      }
+    ]
+  }
+}
